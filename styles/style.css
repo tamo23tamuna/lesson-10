@@ -89,7 +89,7 @@
 .left-box{
     width: 444px;
 }
-.section1-h3{
+.about-us-h3{
     font-size: 14px;
     font-family: 'Poppins Bold', sans-serif;
     font-weight: bold;
@@ -139,4 +139,75 @@
 }
 .plants-image{
     padding-top: 12px;
+}
+
+
+
+/* section two */
+.section2-image{
+    background-image: url(../images/Group\ 13.jpg);
+    width: 100%;
+    height: 612px;
+    margin-top: 90px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.text-container-section2{
+    width: 332px;
+    height: 132px;
+    position: absolute;
+    top: 92px; right: 0; bottom: 0; left: 139px;
+}
+.section2-h2{
+    font-size: 42px;
+    font-family: 'Poppins ExtraBold', sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+.box-wraper-section2{
+    max-width: 1088px;
+    width: 80%;
+    position: absolute;
+    top: 262px; right: 0; bottom: 0; left: 139px;
+    display: flex;
+    justify-content: space-between;
+}
+.section2-box{
+    width: 260px;
+    height: 260px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.blue-circle{
+    width: 59px;
+    height: 58px;
+    background-color: #5863F8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-hotel{
+    font-size: 33px;
+}
+.section2-box-h3{
+    width: 142px;
+    font-size: 18px;
+    font-family: 'Poppins SemiBold', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+.section2-box-p{
+    width: 221px;
+    font-size: 14px;
+    color: #B1B1B1;
+    font-family: 'Poppins Medium', sans-serif;
+    text-align: center;
+    margin-top: 24px;
 }
