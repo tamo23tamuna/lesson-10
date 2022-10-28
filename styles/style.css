@@ -89,7 +89,7 @@
 .left-box{
     width: 444px;
 }
-.about-us-h3{
+.blue-title{
     font-size: 14px;
     font-family: 'Poppins Bold', sans-serif;
     font-weight: bold;
@@ -284,5 +284,117 @@
 }
 
 /* footer */
+footer{
+    width: 100%;
+    height: 395px;
+    background-color: #121212;
+    padding: 89px 0 41px 0;
+}
+.footer-container{
+    width: 1051px;
+    height: 264px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.text-block-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
+/* text block 1 */
+.text-block-footer:nth-child(1){
+    width: 260px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 24px;
+    font-family: 'Poppins Bold', sans-serif;
+    color: white;
+}
+.footer-p{
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
+    color: #B1B1B1;
+    line-height: 19px;
+}
+.icons-wraper{
+    width: 126px;
+    display: flex;
+    justify-content: space-between;
+}
+.frames{
+    width: 35px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frames:nth-child(1){
+    background-color: #3B5998;
+}
+.frames:nth-child(2){
+    background-color: #55ACEE;
+}
+.frames:nth-child(3){
+    background-color: #DC4E41;
+}
+.fa-brands{
+    color: white;
+}
 
+/* text block 2 */
+.text-block-footer:nth-child(2){
+    width: 93px;
+    height: 154px;
+    margin-left: 200px;
+}
+.footer-h3{
+    font-size: 18px;
+    font-family: 'Poppins SemiBold', sans-serif;
+    color: white;
+}
+.blue-ul{
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
+    color: #5863F8;
+    line-height: 28px;
+    margin-top: 18px;
+}
+
+/* text block 3 */
+.text-block-footer:nth-child(3){
+    width: 67px;
+    height: 154px;
+    margin-left: 94px;
+}
+
+/* text block 4 */
+.text-block-footer:nth-child(4){
+    width: 178px;
+    height: 144px;
+    margin-left: 117px;
+}
+.space-ul{
+    margin-top: 15px;
+}
+.fa-solid{
+    font-size: 16px;
+    margin-right: 5px;
+}
+.links{
+    color: white;
+}
+
+/* copyright */
+.copyright{
+    color: #B1B1B1;
+    margin-bottom: 1px;
+}
