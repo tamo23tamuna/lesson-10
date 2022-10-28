@@ -137,7 +137,7 @@
 .pool-image {
     padding-left: 12px;
 }
-.plants-image{
+.hall-image{
     padding-top: 12px;
 }
 
@@ -145,7 +145,7 @@
 
 /* section two */
 .section2-image{
-    background-image: url(../images/Group\ 13.jpg);
+    background-image: url(../images/plant.jpg);
     width: 100%;
     height: 612px;
     margin-top: 90px;
@@ -211,3 +211,78 @@
     text-align: center;
     margin-top: 24px;
 }
+
+/* section 3 */
+.container3{
+    width: 100%;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+}
+.text-wraper-section3{
+    width: 436px;
+    height: 305px;
+    margin-left: 139px;
+    display: flex;
+    flex-direction: column;
+}
+.testimonials-h3{
+    font-size: 14px;
+    font-family: 'Poppins Bold', sans-serif;
+    font-weight: bold;
+    color: #5863F8;
+}
+.section3-h2{
+    font-size: 40px;
+    font-family: 'Poppins ExtraBold', sans-serif;
+    margin-top: 10px;
+}
+.profile{
+    display: flex;
+    margin-top: 34px;
+}
+.profile-name{
+    font-size: 18px;
+    font-family: 'Poppins SemiBold', sans-serif;
+    margin-left: 19px;
+    margin-top: 7px;
+}
+.section3-p{
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
+    margin-top: 20px;
+}
+.image-container-section3{
+    width: 583px;
+    margin-left: 212px;
+    display: inline-block;
+}
+
+
+/* section 4 */
+.text-wraper-section4{
+    width: 475px;
+    margin-top: 90px;
+    margin-left: 139px;
+}
+.section4-h3{
+    font-size: 14px;
+    font-family: 'Poppins Bold', sans-serif;
+    font-weight: bold;
+    color: #5863F8;
+}
+.section4-h2{
+    font-size: 42px;
+    font-family: 'Poppins ExtraBold', sans-serif;
+}
+.image-container-section4{
+    width: 100%;
+    height: 352px;
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+
+
