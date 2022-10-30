@@ -13,7 +13,6 @@
 .black-background{
     background-color: black;
     width: 100%;
-    height: 324px;
     opacity: 0.6;
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
@@ -37,9 +36,13 @@
     color: white;
 }
 .navigation{
-    width: 560px;
+    max-width: 560px;
+    width: 70%;
     display: flex;
     justify-content: space-between;
+}
+.menu-icon{
+    display: none;
 }
 .nav-li{
     font-size: 12px;
@@ -50,9 +53,12 @@
     color: #5863F8;
 }
 .header-title{
+    max-width: 1088px;
+    width: 80%;
+    margin: 0 auto;
     height: 93px;
     position: absolute;
-    top: 145px; right: 0; bottom: 0; left: 139px;
+    top: 145px; right: 0; bottom: 0; left: 0;
 }
 .title{
     font-size: 42px;
@@ -80,12 +86,13 @@
 
 
 
-/* section one */
+/* section 1 */
 .container1{
     max-width: 1088px;
     width: 80%;
     margin: 0 auto;
     margin-top: 90px;
+    margin-bottom: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,10 +142,10 @@
 }
 .right-box{
     width: 536px;
-    height: 461px;
 }
-.pool-image {
-    padding-left: 12px;
+.image-wraper-section1{
+    display: flex;
+    justify-content: space-between;
 }
 .hall-image{
     padding-top: 12px;
@@ -150,7 +157,6 @@
 .section2-image{
     background-image: url(../images/plant.jpg);
     height: 612px;
-    margin-top: 90px;
 }
 .text-container-section2{
     width: 332px;
@@ -216,7 +222,6 @@
 }
 .text-wraper-section3{
     width: 434px;
-    height: 305px;
     margin-left: 139px;
 }
 .testimonials-h3{
@@ -242,7 +247,6 @@
 }
 .image-container-section3{
     width: 583px;
-    display: inline-block;
 }
 
 
@@ -277,22 +281,14 @@ footer{
     width: 80%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-content: space-between;
-}
-.text-block-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 /* text block 1 */
 .text-block-footer:nth-child(1){
     width: 260px;
-    height: 192px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .footer-title{
     font-size: 24px;
@@ -304,9 +300,11 @@ footer{
     font-family: 'Poppins Medium', sans-serif;
     color: #B1B1B1;
     line-height: 19px;
+    margin-top: 22px;
 }
 .icons-wraper{
     width: 126px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -334,9 +332,7 @@ footer{
 
 /* text block 2 */
 .text-block-footer:nth-child(2){
-    width: 93px;
-    height: 154px;
-    margin-left: 200px;
+    margin-left: 55px;
 }
 .footer-h3{
     font-size: 18px;
@@ -351,19 +347,7 @@ footer{
     margin-top: 18px;
 }
 
-/* text block 3 */
-.text-block-footer:nth-child(3){
-    width: 67px;
-    height: 154px;
-    margin-left: 94px;
-}
-
 /* text block 4 */
-.text-block-footer:nth-child(4){
-    width: 178px;
-    height: 144px;
-    margin-left: 117px;
-}
 .space-ul{
     margin-top: 15px;
 }
