@@ -158,6 +158,10 @@
     background-image: url(../images/plant.jpg);
     height: 612px;
 }
+.responsive-div-section2{
+    max-width: 1088px;
+    width: 80%;
+}
 .text-container-section2{
     width: 332px;
     height: 132px;
