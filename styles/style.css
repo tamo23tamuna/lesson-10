@@ -353,11 +353,22 @@ footer{
 .space-ul{
     margin-top: 15px;
 }
-.fa-solid{
+.fa-envelope{
     font-size: 16px;
     margin-right: 5px;
     color: #5863F8;
 }
+.fa-phone{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #5863F8;
+}
+.fa-location-dot{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #5863F8;
+}
+
 
 /* copyright */
 .copyright{
