@@ -342,9 +342,11 @@ footer{
 .blue-ul{
     font-size: 14px;
     font-family: 'Poppins Medium', sans-serif;
-    color: #5863F8;
     line-height: 28px;
     margin-top: 18px;
+}
+.blue{
+    color: #5863F8;
 }
 
 /* text block 4 */
@@ -354,13 +356,13 @@ footer{
 .fa-solid{
     font-size: 16px;
     margin-right: 5px;
-}
-.links{
-    color: white;
+    color: #5863F8;
 }
 
 /* copyright */
 .copyright{
+    font-size: 14px;
+    font-family: 'Poppins Medium', sans-serif;
     color: #B1B1B1;
     margin-top: 54px;
 }

@@ -48,12 +48,12 @@
     }
     .responsive-section2-box{
         width: 40%;
+        display: flex;
     }
     .text-container-section2{
         top: 92px; right: 0; bottom: 0; left: 60px;
     }
     .box-wraper-section2{
-        width: 455px;
         top: 262px; right: 0; bottom: 0; left: 60px;
     }
 }
